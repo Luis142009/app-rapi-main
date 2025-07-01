@@ -1,0 +1,561 @@
+body {
+  background-color: white;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+   margin: 0;
+  padding: 0;
+  
+}
+
+.cabeza {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem 4rem;
+ 
+}
+
+.cabe {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.log {
+  width: 100%;
+  height: auto;
+}
+
+.text {
+  font-size: 1.2rem;
+  font-weight: bold;
+  
+}
+
+.mover {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.unico {
+  background-color: #e8505b;
+  color: white;
+  border: none;
+  border-radius: 0.9rem;
+  padding: 1px 20px;
+  font-size: 0.9rem;
+}
+
+.part1{
+    padding: 4rem 4rem;
+    margin-top: -67px;
+    margin-bottom: -120px;
+}
+.cuadro{
+    display: flex;
+    width: 200xp;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    padding: 4rem 2rem;
+    margin-top: -6rem;
+}
+.color{
+    background-color: #e8505b;
+    color: white;
+    width: 49%;
+    height: 92vh;
+    padding: 0.13rem;
+}
+.vendedor{
+    width: 520px;
+    padding: 4rem 4rem;
+    
+}
+.titulo{
+     padding: 4rem 4rem;
+     text-align: center;
+     font-size: 2rem;
+}
+.buscar{
+    text-align: center;
+    background-color: #455a64;
+    padding: 0.44rem 1rem;
+    border-radius: 0.77rem;
+    font-size: 1.3rem;
+    height: 5vh;
+}
+.top{
+    height: 2.3rem;
+    margin-top: 2.3%;
+}
+.tamaño{
+    width: 98.3%;
+    height: 8vh;
+    border: none;
+}
+.part2{
+  position: relative;
+  padding-bottom: 4rem;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  background-color: #e8505b;
+  height: 96vh;
+}
+
+.centro{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  font-weight: bold;
+  color: white;
+}
+
+.tarjetas{
+  display: flex;
+  gap: 8rem;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.cuadros{
+  background-color: white;
+  color: #333;
+  width: 100px;
+  height: 40vh;
+  border-radius: 1rem;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  padding: 5rem;
+  font-weight: bold;
+}
+.ola{
+  margin-bottom: -5px
+}
+.blancos{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cosa{
+  width: 350px;
+  margin-top: -110px;
+  
+  
+}
+.centro, p{
+  margin-top: -42px;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.centro, h1{
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+
+.parte3{
+  text-align: center;
+  padding: 4rem;
+  display: flex;
+  gap: 2rem;
+  margin-top: -40px;
+}
+.love{
+  display:flex ;
+  gap: 1rem;
+ 
+}
+.señor{
+  border-radius: 10rem;
+  width: 110px;
+}
+.testimonio{
+  background-color: #455a64;
+  color: white;
+  border-radius: 1rem;
+  height: 40vh;
+  padding: 1rem;
+  width: 50%;
+}
+.star{
+  width: 190px;
+  height: 5vh;
+}
+.separacion{
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  
+}
+.unica{
+  padding-top: 70px;
+  font-size: 1.2rem;
+  font-weight: none;
+  text-align: center;
+  max-width: 500px;
+}
+.juan{
+  display: flex;
+  justify-content: start;
+}
+.testimom{
+  background-color: #455a64;
+  color: white;
+  border-radius: 1rem;
+  height: 40vh;
+  padding: 1rem;
+  width: 40%;
+}
+.corte{
+  padding: 4rem;
+  margin-top: -110px;
+  display: flex;
+  gap: 2rem;
+}
+.inicial{
+  text-align: center;
+}
+.new{
+  background-color: #455a64;
+  color: white;
+  border-radius: 1rem;
+  height: 40vh;
+  padding: 1rem;
+  width: 50%;
+}
+.venta{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  background-color: #455a6440;
+  padding: 4rem;
+  padding-top: 6rem;
+
+}
+.ensalada{
+  width: 120px;
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sep{
+  padding-top: 70px;
+  font-size: 1.2rem;
+  font-weight: none;
+  max-width: 400px;
+   text-decoration: none;
+}
+.bomb{
+  width: 190px;
+  height: 5vh;
+  padding-top: 3rem;
+}
+.verde{
+   display: flex;
+  text-align: center;
+  color: #e8505b;
+}
+.arroz{
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  margin-bottom: -20px;
+
+}
+.fantastic{
+  background-color: #ffffff;
+  border-radius: 0.6rem;
+  height: 50vh;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  
+}
+.espacio{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.moment{
+  display: flex;
+  margin-top: 20px;
+}
+.resta{
+  text-align: center;
+  color: #455a6440;
+  background-color: #455a6440;
+  margin-bottom: -0px;
+  padding-top: 3rem;
+}
+.parte4{
+  display: flex;
+  background-color: white;
+}
+.no{
+  display: flex;
+  
+
+}
+.parte4 {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  gap: 5%;
+  background-color: white;
+  padding: 5vh 5%;
+  flex-wrap: wrap;
+}
+
+.no {
+  width: 45%;
+}
+
+.no img {
+  width: 100%;
+ 
+}
+
+.texto{
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 60px;
+   margin-bottom: -70px;
+
+}
+.gana{
+  text-align: center;
+}
+  
+  .boton{
+    background-color: #e8505b;
+    border-radius: 0.5rem;
+    width: 40%;
+    font-size: 1.5rem;
+    text-align: center;
+     max-width: 300px;
+    color: #ffffff;
+    padding: 0.5rem;
+    margin-top: -50px;
+  }
+  .texto p{
+    font-size: 1.3rem;
+  }
+
+  .seccion-descarga {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
+  background-color: #edf0f1;
+  flex-wrap: wrap;
+  height: 120vh;
+}
+
+.vista-app {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+}
+
+.vista-app img {
+  width: 53%;
+  border-radius: 1rem;
+}
+
+.info-descarga {
+  width: 40%;
+  text-align: center;
+  font-size: 1.2rem;
+  color: #2c3e50;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.info-descarga h2 {
+  font-size: 2.5rem;
+}
+
+.botones-app {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.botones-app img {
+  height:   12vh;
+
+}
+
+.parte5 {
+  background-color: #455a64;
+  color: white;
+  font-size: 1.2rem;
+  height: 70vh;
+}
+
+.dentroB {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 5vh 5%;
+  gap: 3rem;
+}
+
+.sweat {
+  width: 28%;
+  min-width: 250px;
+}
+
+.sweat h3 {
+  font-size: 1.8rem;
+  margin-bottom: 1.5vh;
+}
+
+.sweat p {
+  line-height: 1.5;
+}
+
+.sweat ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.sweat ul li {
+  padding: 0.5vh 0;
+}
+
+.sweat ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+
+.final {
+  background-color: #e84e5f;
+  text-align: center;
+  padding: 2vh 0;
+  font-size: 1.1rem;
+  height: 9vh;
+}
+.si{
+  display: flex;
+  margin-top: 20px;
+  font-size: 1.2rem;
+}
+.ultimatun{
+  text-align: center;
+  font-size:   1.4rem;
+}
+
+
+@media (max-width: 480px) {
+  .formulario {
+    height: 38vh;
+  }
+  .cabeza{
+    display: flex;
+   justify-content: space-between;
+   gap: 20rem;
+    
+    
+  }
+  .log{
+    padding-right: 15rem;
+    
+
+  }
+  .cabe{
+    gap: 4rem;
+  }
+  .formulario{
+   height: 35vh;
+  }
+  .vendedor{
+   width: 600px;
+  }
+  .color{
+    width: 170%;
+    height: 102vh;
+    padding: 1rem;
+  }
+  .mover{
+    
+    padding-right: 1rem;
+  }
+  .ola{
+    width: 242%;
+  }
+  .part2{
+    width: 242%;
+    height: 110vh;
+  }
+  .testimonio{
+    width: 120%;
+  }
+  .testimom{
+    width: 400%;
+    
+  }
+  .new{
+    width: 140%;
+  }
+  .parte3{
+    text-align: center;
+    width: 213%;
+
+  }
+  .corte{
+    width: 213%;
+  }
+  .inicial{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .venta{
+    width: 213%;
+    max-width: 1600px;
+    padding-top: 20px;
+  }
+  .fantastic{
+    height: 309px;
+    padding-top: -50px;
+  }
+  .resta{
+    text-align: center;
+    width: 240%;
+  }
+  .texto{
+    max-height: 1000px;
+  }
+  .parte4{
+    width: 240%;
+  }
+  .seccion-descarga{
+    width: 240%;
+  }
+  .parte5{
+    width: 240%;
+    height: 80vh;
+  }
+  .ultimatun{
+    margin-bottom: -59px;
+  }
+  .text{
+    text-align: center;
+    gap: 1rem;
+  }
+}
