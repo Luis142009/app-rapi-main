@@ -134,6 +134,7 @@ body {
 }
 .ola{
   margin-bottom: -5px
+  
 }
 .blancos{
   display: flex;
@@ -458,13 +459,17 @@ body {
   text-align: center;
   font-size:   1.4rem;
 }
-
-
+.comofunciona{
+  font-size: 2.2rem;
+}
+.tanfacil{
+  font-size: 1.2rem;
+}
 @media (max-width: 480px) {
   body {
     margin: 0;
     padding: 0;
-    overflow-x: hidden; /* elimina el scroll horizontal */
+    overflow-x: hidden;
   }
 
   .part1,
@@ -473,8 +478,8 @@ body {
   .cuadro,
   .tarjetas,
   .corte {
-    width: 190% !important;
-    max-width: 100% !important;
+    width: 190%;
+    max-width: 100%;
     box-sizing: border-box;
     flex-direction: column;
     margin: 0 auto;
@@ -487,21 +492,21 @@ body {
   .vista-app,
   .cuadros,
   .dentroB {
-    flex-direction: column !important;
-    align-items: center !important;
-    justify-content: center !important;
+    flex-direction: column ;
+    align-items: center ;
+    justify-content: center;
     text-align: center;
   }
 
   .bomb,
   .señor {
-    width: 100% !important;
-    height: auto !important;
+    width: 100% ;
+    height: auto ;
     max-width: 100%;
   }
 
   .boton {
-    width: 100% !important;
+    width: 100%;
     max-width: 300px;
     font-size: 1.2rem;
   }
@@ -551,9 +556,6 @@ body {
     width: 125%;
   }
 
-  .ola {
-    width: 125%;
-  }
 
   .vendedor {
     width: 400px;
@@ -561,9 +563,9 @@ body {
 
   .parte3,
   .corte {
-    flex-direction: column !important;
-    align-items: center !important;
-    padding: 2rem 1rem !important;
+    flex-direction: column ;
+    align-items: center ;
+    padding: 2rem 1rem ;
     gap: 1.5rem;
     margin-top: -20px;
   }
@@ -571,19 +573,19 @@ body {
   .testimonio,
   .testimom,
   .new {
-    width: 95% !important;
-    height: auto !important;
-    padding: 1.5rem 1rem !important;
-    display: flex !important;
-    flex-direction: column !important;
-    align-items: center !important;
-    text-align: center !important;
+    width: 95% ;
+    height: auto ;
+    padding: 1.5rem 1rem ;
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
 
   .señor {
-    width: 80px !important;
-    height: 80px !important;
-    border-radius: 50% !important;
+    width: 80px ;
+    height: 80px ;
+    border-radius: 50% ;
     object-fit: cover;
     margin-bottom: 0.5rem;
   }
@@ -605,13 +607,13 @@ body {
 
   .parte4 {
     flex-direction: column;
-    gap: 30px; /* reduce el espacio entre elementos en pantallas pequeñas */
+    gap: 30px; 
   }
 
   .no,
   .texto {
     width: 100%;
-    margin-bottom: 0; /* elimina el margin negativo que puede causar problemas en móviles */
+    margin-bottom: 0; 
     margin-top: 20px;
   }
 
@@ -625,18 +627,18 @@ body {
 
   .dentroB {
     flex-direction: column;
-    align-items: center; /* centra las columnas en móviles */
+    align-items: center; 
   }
 
   .sweat {
     width: 100%;
-    text-align: center; /* centra el texto en móviles */
+    text-align: center; 
   }
 
   .sweat h3,
   .sweat p,
   .sweat ul li {
-    text-align: center; /* centra títulos, párrafos y enlaces */
+    text-align: center;
   }
 
   .parte5 {
@@ -646,5 +648,202 @@ body {
 
   .ultimatun {
     margin-bottom: 79px;
+  }
+}
+@media (max-width: 480px) {
+  body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    display: flex;
+    text-align: center;
+    
+  }
+
+  .part1,
+  .fantastic,
+  .cabeza,
+  .cuadro,
+  .tarjetas,
+  .corte,
+  .venta,
+  .seccion-descarga {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+
+  .cabeza,
+  .mover,
+  .cabe,
+  .texto,
+  .vista-app,
+  .cuadros,
+  .dentroB,
+  .parte3,
+  .corte,
+  .parte4 {
+    display: flex ;
+    flex-direction: column ;
+    align-items: center ;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .testimonio,
+  .testimom,
+  .new {
+    width: 95%;
+    height: auto;
+    padding: 1.5rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .señor {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 0.5rem;
+   
+  }
+
+  .bomb {
+    width: 100px;
+    height: auto;
+  }
+
+  .boton {
+    width: 80%;
+    max-width: 300px;
+    font-size: 1.2rem;
+  }
+
+  .buscar {
+    font-size: 1rem;
+    width: 92%;
+  }
+
+  .text,
+  .sweat,
+  .sweat h3,
+  .sweat p,
+  .sweat ul li {
+    text-align: center;
+    width: 100%;
+  }
+
+  .formulario {
+    width: 85%;
+  }
+
+  .color {
+    width: 100%;
+    height: auto;
+  }
+
+  .cosa {
+    width: 500%;
+    gap: 2rem;
+  }
+
+  .cuadros {
+    width: 15%;
+    
+  }
+
+  .tarjetas {
+    gap: 26rem;
+    flex-direction: column;
+    
+  }
+
+  .resta {
+    width: 100%;
+    text-align: center;
+  }
+
+  .fantastic {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0;
+    border-radius: 1rem;
+    padding: 1.5rem;
+  }
+
+  .ultimatun {
+    margin-bottom: 79px;
+  }
+  .ola{
+    width: 100%;
+    height: 24.3vh;
+    margin-bottom: -21px;
+    
+  }
+  .part2{
+    width: 100%;
+    height: 370vh;
+  }
+
+  .comofunciona{
+    margin-bottom: 40px;
+  }
+  .tanfacil{
+    margin-bottom: 300px;
+  }
+  .vendedor{
+    padding-left: 1rem;
+    width: 380px;
+    margin-bottom: -120px;
+  }
+  .sep{
+    font-size: 1rem;
+  }
+  .unica{
+    font-size: 1rem;
+  }
+  .resta{
+    font-size: 2rem;
+  }
+  .ensalada{
+   margin-bottom: -3rem;
+  }
+  .verde{
+    font-size: 1.4rem;
+    text-align: center;
+  }
+  .texto{
+    max-width: 400px;
+    margin-top: 2rem;
+  }
+  
+  .vista-app img{
+    width: 190px;
+  }
+  .botones-app img{
+    width: 100%;
+  }
+  .parte5{
+     width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    margin: 0 auto;
+    height: 188vh;
+  }
+  .final{
+    height: 16vh;
+    text-align: center;
+    width: 100%;
+  }
+  .ultimatun{
+    text-align: center;
+    margin-top: -80px;
+  }
+  .boton{
+    font-size: 1.5rem;
   }
 }
