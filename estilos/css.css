@@ -461,101 +461,146 @@ body {
 
 
 @media (max-width: 480px) {
-  .formulario {
-    height: 38vh;
+  body {
+    padding: 0;
+    margin: 0;
   }
-  .cabeza{
-    display: flex;
-   justify-content: space-between;
-   gap: 20rem;
-    
-    
-  }
-  .log{
-    padding-right: 15rem;
-    
 
+  .cabeza {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem 1rem;
   }
-  .cabe{
-    gap: 4rem;
+
+  .cabe,
+  .mover {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
   }
-  .formulario{
-   height: 35vh;
+
+  .log {
+    width: 80%;
+    height: auto;
   }
-  .vendedor{
-   width: 600px;
+
+  .text {
+    text-align: center;
   }
-  .color{
-    width: 170%;
-    height: 102vh;
+
+  .part1,
+  .color,
+  .vendedor,
+  .formulario {
+    width: 100%;
+    padding: 1rem;
+    margin: 0;
+  }
+
+  .color {
+    height: auto;
+  }
+
+  .cuadro {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .titulo {
+    font-size: 1.5rem;
     padding: 1rem;
   }
-  .mover{
-    
-    padding-right: 1rem;
-  }
-  .ola{
-    width: 242%;
-  }
-  .part2{
-    width: 242%;
-    height: 110vh;
-  }
-  .testimonio{
-    width: 120%;
-  }
-  .testimom{
-    width: 400%;
-    
-  }
-  .new{
-    width: 140%;
-  }
-  .parte3{
-    text-align: center;
-    width: 213%;
 
+  .buscar,
+  .tamaño {
+    width: 100%;
   }
-  .corte{
-    width: 213%;
+
+  .part2 {
+    height: auto;
+    padding: 2rem 1rem;
   }
-  .inicial{
+
+  .centro,
+  .tarjetas {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .cuadros {
+    width: 90%;
+    height: auto;
+    padding: 2rem;
+  }
+
+  .parte3,
+  .corte,
+  .venta,
+  .parte4,
+  .seccion-descarga,
+  .parte5 {
+    flex-direction: column;
+    width: 100%;
+    padding: 2rem 1rem;
+    gap: 1.5rem;
+  }
+
+  .testimonio,
+  .testimom,
+  .new,
+  .fantastic {
+    width: 100%;
+    height: auto;
+  }
+
+  .texto,
+  .no,
+  .vista-app,
+  .info-descarga,
+  .sweat {
+    width: 100%;
     text-align: center;
-    display: flex;
-    justify-content: center;
+  }
+
+  .boton {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .botones-app {
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+  }
+
+  .resta,
+  .final {
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+  }
+
+  .ultimatun {
+    font-size: 1.2rem;
+  }
+
+  .señor {
+    width: 90px;
+  }
+
+  .arroz {
     align-items: center;
   }
-  .venta{
-    width: 213%;
-    max-width: 1600px;
-    padding-top: 20px;
+
+  .no img {
+    width: 100%;
+    height: auto;
   }
-  .fantastic{
-    height: 309px;
-    padding-top: -50px;
-  }
-  .resta{
-    text-align: center;
-    width: 240%;
-  }
-  .texto{
-    max-height: 1000px;
-  }
-  .parte4{
-    width: 240%;
-  }
-  .seccion-descarga{
-    width: 240%;
-  }
-  .parte5{
-    width: 240%;
-    height: 80vh;
-  }
-  .ultimatun{
-    margin-bottom: -59px;
-  }
-  .text{
-    text-align: center;
-    gap: 1rem;
+
+  .info-descarga h2 {
+    font-size: 2rem;
   }
 }
