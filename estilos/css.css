@@ -462,145 +462,189 @@ body {
 
 @media (max-width: 480px) {
   body {
-    padding: 0;
     margin: 0;
-  }
-
-  .cabeza {
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
-    padding: 2rem 1rem;
-  }
-
-  .cabe,
-  .mover {
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
-  }
-
-  .log {
-    width: 80%;
-    height: auto;
-  }
-
-  .text {
-    text-align: center;
+    padding: 0;
+    overflow-x: hidden; /* elimina el scroll horizontal */
   }
 
   .part1,
-  .color,
-  .vendedor,
+  .fantastic,
+  .cabeza,
+  .cuadro,
+  .tarjetas,
+  .corte {
+    width: 190% !important;
+    max-width: 100% !important;
+    box-sizing: border-box;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  .cabeza,
+  .mover,
+  .cabe,
+  .texto,
+  .vista-app,
+  .cuadros,
+  .dentroB {
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center;
+  }
+
+  .bomb,
+  .señor {
+    width: 100% !important;
+    height: auto !important;
+    max-width: 100%;
+  }
+
+  .boton {
+    width: 100% !important;
+    max-width: 300px;
+    font-size: 1.2rem;
+  }
+
+  .buscar {
+    font-size: 1rem;
+    height: auto;
+    width: 92%;
+  }
+
+  .text {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .tarjetas {
+    gap: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   .formulario {
-    width: 100%;
-    padding: 1rem;
-    margin: 0;
+    width: 80%;
   }
 
   .color {
-    height: auto;
+    width: 120%;
+    height: 110vh;
   }
 
-  .cuadro {
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-  }
-
-  .titulo {
-    font-size: 1.5rem;
-    padding: 1rem;
-  }
-
-  .buscar,
-  .tamaño {
-    width: 100%;
-  }
-
-  .part2 {
-    height: auto;
-    padding: 2rem 1rem;
-  }
-
-  .centro,
-  .tarjetas {
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
+  .cosa {
+    width: 260px;
+    gap: 2rem;
   }
 
   .cuadros {
-    width: 90%;
-    height: auto;
-    padding: 2rem;
+    width: 20px;
+    height: 1vh;
+  }
+
+  .part2 {
+    height: 270vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 125%;
+  }
+
+  .ola {
+    width: 125%;
+  }
+
+  .vendedor {
+    width: 400px;
   }
 
   .parte3,
-  .corte,
-  .venta,
-  .parte4,
-  .seccion-descarga,
-  .parte5 {
-    flex-direction: column;
-    width: 100%;
-    padding: 2rem 1rem;
+  .corte {
+    flex-direction: column !important;
+    align-items: center !important;
+    padding: 2rem 1rem !important;
     gap: 1.5rem;
+    margin-top: -20px;
   }
 
   .testimonio,
   .testimom,
-  .new,
-  .fantastic {
-    width: 100%;
-    height: auto;
-  }
-
-  .texto,
-  .no,
-  .vista-app,
-  .info-descarga,
-  .sweat {
-    width: 100%;
-    text-align: center;
-  }
-
-  .boton {
-    width: 100%;
-    max-width: 300px;
-  }
-
-  .botones-app {
-    flex-direction: column;
-    gap: 1rem;
-    width: 100%;
-  }
-
-  .resta,
-  .final {
-    width: 100%;
-    padding: 1rem;
-    text-align: center;
-  }
-
-  .ultimatun {
-    font-size: 1.2rem;
+  .new {
+    width: 95% !important;
+    height: auto !important;
+    padding: 1.5rem 1rem !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    text-align: center !important;
   }
 
   .señor {
-    width: 90px;
+    width: 80px !important;
+    height: 80px !important;
+    border-radius: 50% !important;
+    object-fit: cover;
+    margin-bottom: 0.5rem;
   }
 
-  .arroz {
-    align-items: center;
-  }
-
-  .no img {
+  .venta {
     width: 100%;
-    height: auto;
+    gap: -6rem;
   }
 
-  .info-descarga h2 {
-    font-size: 2rem;
+  .resta {
+    width: 126.5%;
+  }
+
+  .fantastic {
+    width: 2000px;
+    height: 110vh;
+    padding: 1rem;
+  }
+
+  .parte4 {
+    flex-direction: column;
+    gap: 30px; /* reduce el espacio entre elementos en pantallas pequeñas */
+  }
+
+  .no,
+  .texto {
+    width: 100%;
+    margin-bottom: 0; /* elimina el margin negativo que puede causar problemas en móviles */
+    margin-top: 20px;
+  }
+
+  .boton {
+    width: 80%;
+  }
+
+  .seccion-descarga {
+    width: 130%;
+  }
+
+  .dentroB {
+    flex-direction: column;
+    align-items: center; /* centra las columnas en móviles */
+  }
+
+  .sweat {
+    width: 100%;
+    text-align: center; /* centra el texto en móviles */
+  }
+
+  .sweat h3,
+  .sweat p,
+  .sweat ul li {
+    text-align: center; /* centra títulos, párrafos y enlaces */
+  }
+
+  .parte5 {
+    height: 170vh;
+    width: 130%;
+  }
+
+  .ultimatun {
+    margin-bottom: 79px;
   }
 }
